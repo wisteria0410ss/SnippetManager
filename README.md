@@ -4,6 +4,13 @@ VSCodeのユーザースニペットの管理が面倒だったので作りま�
 ## 使い方
 julia manager.jl
 
+JuliaのパッケージとしてTerminalMenusとJSONが必要です。
+```julia
+import Pkg
+Pkg.add TerminalMenus
+Pkg.add JSON
+```
+
 ## 動作環境
 Ubuntu 18.04.1 + Visual Studio Code 1.27.1 + Julia 1.0.0 で動作確認しています。
 
